@@ -7,7 +7,7 @@
 ## 👨‍💻 What is HACK-TON-BERFEST?
 HACK-TON-BERFEST is a month dedicated to open source, inspired by the classic Hacktoberfest by DigitalOcean, but with a focus on the TON ecosystem. We bring together developers from all over the world to enhance projects on the TON blockchain, share experiences and knowledge, and of course, receive great bonuses for their contributions.
 
-##🎁 What will you get?
+## 🎁 What will you get?
 
 **Double merch:** Participants have a chance to get exclusive merchandise from both TON and Hacktoberfest!
 
@@ -15,7 +15,7 @@ HACK-TON-BERFEST is a month dedicated to open source, inspired by the classic Ha
 
 **Valuable prizes:** Additional rewards from the TON ecosystem, including access to ton.api and many others!
 
-##🚀 How to participate?
+## 🚀 How to participate?
 
 ### Step 1: Register on TON Society
 1. Go to [TON Society]().
@@ -36,5 +36,5 @@ HACK-TON-BERFEST is a month dedicated to open source, inspired by the classic Ha
 
 >Video tutorial: If you prefer visual learning, check out [this video tutorial]() on contributing!
 
-##🎉 Prizes
+## 🎉 Prizes
 Apart from the chance to receive double merch, active participants also stand a chance to win additional rewards, including special accesses and bonuses from partners in the TON ecosystem.
