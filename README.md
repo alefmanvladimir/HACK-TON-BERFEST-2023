@@ -23,7 +23,7 @@ HACK-TON-BERFEST is a month dedicated to open source, inspired by the classic Ha
 3. In the profile section, make sure you've filled out the fields for your Telegram and GitHub accounts.
 
 ### Step 2: Choose a task to contribute
-1. Explore the repositories associated with this event and pick one that interests you the most. [List of all participating teams]("")
+1. Explore the repositories associated with this event and pick one that interests you the most. [List of all participating teams](https://github.com/alefmanvladimir/HACK-TON-BERFEST-2023/blob/main/PROJECTS.md)
 2. Follow the instructions provided in the chosen repository to get started.
 
 ### Step 3: Contributing
