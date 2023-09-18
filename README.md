@@ -41,4 +41,4 @@ Apart from the chance to receive double merch, active participants also stand a 
 
 ## 🚀 Join the Community
 
-We're always happy to welcome new members! To become a part of our growing community, join our [group]("https://t.me/hack_ton_berfest_2023") on Telegram.
+We're always happy to welcome new members! To become a part of our growing community, join our [group](https://t.me/hack_ton_berfest_2023) on Telegram.
