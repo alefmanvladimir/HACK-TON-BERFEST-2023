@@ -9,9 +9,9 @@ HACK-TON-BERFEST is a month dedicated to open source, inspired by the classic Ha
 
 ## 🎁 What will you get?
 
-**Double merch:** Participants have a chance to get exclusive merchandise from both TON and Hacktoberfest!
-
 **Participant's NFT:** This unique NFT will not only confirm your participation, but also give you access to private TON community chats on Telegram.
+
+**Double merch:** Participants have a chance to get exclusive merchandise from both TON and Hacktoberfest!
 
 **Valuable prizes:** Additional rewards from the TON ecosystem, including access to ton.api and many others!
 
@@ -36,9 +36,39 @@ HACK-TON-BERFEST is a month dedicated to open source, inspired by the classic Ha
 
 >Video tutorial: If you prefer visual learning, check out [this video tutorial]() on contributing!
 
+##  🎁 How to Get Swag?
+Earning swag is simple during HACK-TON-BERFEST 2023:
+
+1. **Earn Hacktoberfest Swag:** Have 4 of your PRs merged into participating projects.
+2. **Earn TON Swag:** Just ensure 2 of your PRs get merged.
+
+## 🌍 Local TON Hubs Participation 📍
+
+Local TON hubs around the world are joining this event. Hubs are hosting both offline and online activities, including pull-request sessions for beginners, training webinars, and workshops.
+
+**Local TON Hubs**:
+
+- [TON Hub Europe](https://t.me/TONSocietyEurope)
+- [TON Hub India]()
+- [TON Hub Asia]()
+
 ## 🎉 Prizes
 Apart from the chance to receive double merch, active participants also stand a chance to win additional rewards, including special accesses and bonuses from partners in the TON ecosystem.
 
 ## 🚀 Join the Community
 
 We're always happy to welcome new members! To become a part of our growing community, join our [group](https://t.me/hack_ton_berfest_2023) on Telegram.
+
+## ❓ FAQ
+- What's in it for me?
+  - Meet amazing new people, get more involved with the open-source community and win awesome swag!
+- When is the event happening?
+  - Between 1st - 31st October 2023
+- How many people will get swag?
+  - Everybody who made 2 merged PRs
+- Can I register for both Hacktoberfest and Hack-TON-Berfest?
+  - Yes, and even recommended! Each contribution will be counted for both Hacktoberfest and Hack-TON-Berfest
+- I want to create a workshop for the event during October
+  - This is awesome! We will be very happy to provide you with a stage, please contact our organizer (@alefman) at telegram
+
+> You can always join our [Telegram community](https://t.me/hack_ton_berfest_2023) and ask questions there!
