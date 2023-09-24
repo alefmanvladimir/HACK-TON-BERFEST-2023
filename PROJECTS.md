@@ -33,5 +33,14 @@ In this document, you'll find all the amazing teams participating in Hacktoberfe
   **GitHub Link:** to be provided
 
 ---
+### 💎 Getgems community Tact
+  **Description:** This repository is dedicated to translating the smart contracts of the GetGems marketplace from FunC to Tact.
+
+- #### NFT Template - [link](https://github.com/getgems-community-tact/nft-template-in-tact)
+- #### NFT Template Editable - [link](https://github.com/getgems-community-tact/nft-template-editable)
+- #### SBT Template - [link](https://github.com/getgems-community-tact/sbt-template)
+- #### NFT Marketplace - [link](https://github.com/getgems-community-tact/nft-marketplace)
+
+---
 
 _Note: As more teams join the project, they can be added in a similar format below._
