@@ -42,5 +42,22 @@ In this document, you'll find all the amazing teams participating in Hacktoberfe
 - #### NFT Marketplace - [link](https://github.com/getgems-community-tact/nft-marketplace)
 
 ---
+### 🦛 Hipo
+
+Hipo is a decentralized liquid staking protocol on TON. When you stake TON in Hipo, you receive hTON that can be freely used anywhere. Hipo is the first open-sourced liquid staking protocol on TON and stakers can start with just one TON.
+
+Some ideas for HACK-TON-BERFEST 2023 from easy to hard:
+
+- Improve docs on [website](https://hipo.finance) and [project readme](https://github.com/HipoFinance/contract).
+
+- Find a way to automatically visualize DOT graphs available in the [graphs folder](https://github.com/HipoFinance/contract/tree/main/graphs).
+
+- Read [test cases](https://github.com/HipoFinance/contract/tree/main/tests) and find bugs or write new tests.
+
+- Read source code of the [contract](https://github.com/HipoFinance/contract/tree/main/contracts) and find bugs.
+
+- Write a lottery smart contract where users won't lose money, but they might win a bonus. Users deposit different amounts of TON, TON is staked to hTON contract, after one or more rounds hTON is converted back to TON, the reward portion is given to one lucky user, and the process continues again.
+
+---
 
 _Note: As more teams join the project, they can be added in a similar format below._
