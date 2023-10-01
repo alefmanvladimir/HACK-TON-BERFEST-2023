@@ -16,12 +16,14 @@ export function useBusinessCardContract() {
     const {client} = useTonClient()
     const {wallet, sender} = useTonConnect()
 
-    const {likes, setLikes} = useState<number | null>()
-    const {userInfo, setUserInfo} = useState<number | null>()
+    const [likes, setLikes] = useState<number | null>()
+
+    const [userInfo, setUserInfo] = useState<UserInfo | null>()
 
     const businessCardContract = useAsyncInitialize(async () => {
 
         if (!client || !wallet) return
+
         const contract = BusinessCard.fromAddress(Address.parse("EQCM3b63cele_wx64hUJecFvmYA-xHbU4O0lyj3AJxqcLVEe"))
 
         return client.open(contract) as OpenedContract<BusinessCard>
