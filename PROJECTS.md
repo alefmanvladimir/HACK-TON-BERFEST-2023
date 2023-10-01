@@ -8,7 +8,7 @@ In this document, you'll find all the amazing teams participating in Hacktoberfe
 
 **Description:** 🌐 TON Drive is an innovative Telegram Web App designed to bypass the 2GB file size limit of Telegram by leveraging TON Storage. This allows users to securely upload, store, and transfer larger files with ease.
 
-**GitHub Link:** 🔗 [TON Drive Repository](https://github.com/ton-drive/dapp)
+**GitHub Link:** 🔗 [TON Drive Repository](https://github.com/ton-drive/project-documentation/tree/main)
 
 ---
 
@@ -61,6 +61,99 @@ Some ideas for HACK-TON-BERFEST 2023 from easy to hard:
 - Read source code of the [contract](https://github.com/HipoFinance/contract/tree/main/contracts) and find bugs.
 
 - Write a lottery smart contract where users won't lose money, but they might win a bonus. Users deposit different amounts of TON, TON is staked to hTON contract, after one or more rounds hTON is converted back to TON, the reward portion is given to one lucky user, and the process continues again.
+
+---
+### 📖 Tonspeedrun
+
+**Description:** Learn to create applications in TON in 6 quests. Clone the github links from site, go through 5-6 steps and immediately try some practical thing on TON. And only then proceed to complex tech tutorials.
+
+**GitHub Link:** 🔗 [Tonspeedrun Repository](https://github.com/romanovichim/tonspeedrun)
+
+---
+
+### 🎮 Gamefi-SDK
+
+**Description:** GameFi SDK provides developer friendly APIs to help interact game developers with different GameFi assets on TON, such as NFTs/SBTs and jettons (fungible tokens). An example game using it can be found [here](https://github.com/ton-community/flappy-bird-phaser).
+
+**GitHub Link:** 🔗 [Gamefi-sdk repository](https://github.com/ton-community/gamefi-sdk)
+
+---
+
+### 📚 Awesome Tact
+
+**Description:** A curated list of resources designed to help you learn and program in Tact.
+
+**GitHub Link:** 🔗 [Awesome-tact repository](https://github.com/tact-lang/awesome-tact)
+
+---
+### 📔 Tact cookbook
+
+**Description:** The core reason for creating the Tact Cookbook is to collect all the experience from Tact developers in one place so that future developers will use it!
+
+**GitHub Link:** 🔗 [Tact-cookbook repository](https://github.com/alefmanvladimir/tact-cookbook)
+
+---
+
+### 📈 Storm
+
+**Description:** Storm is a decentralized exchange that allows you to trade derivatives on anything you want right in your Telegram!
+
+**GitHub Link:** 🔗 [Storm_bot repository](https://github.com/AndreKuren/Storm_bot)
+
+---
+
+### 🌐 Nujan
+
+**Description:** Web IDE, powered by Nujan, is your ultimate browser-based IDE designed to simplify the journey of writing, testing, compiling, deploying, and interacting with smart contracts on TON. Write smart contracts from anywhere. No setups, no downloads, just pure convenience and versatility.
+
+**GitHub Link:** 🔗 [Nujan-ide repository](https://github.com/nujan-io/nujan-ide/)
+
+---
+
+### 🛠️ Blueprint
+
+**Description:** A development environment for TON blockchain for writing, testing, and deploying smart contracts.
+
+**GitHub Link:** [Blueprint repository](https://github.com/ton-org/blueprint)
+
+---
+
+### 🔄 OpenZeppelin Community Tact
+
+**Description:** OpenZeppelin Community Tact Contracts is a library for developing secure smart contracts on Tact
+
+**GitHub Link:** [Contracts repository](https://github.com/Openzeppelin-Community-Tact/contracts)
+
+---
+
+### 🪞 ITBeard Mirror
+
+**Description:** ITBeard Mirror - Mirror of "АйТиБорода"'s YouTube channel in the TON network
+
+**GitHub Link:** [repository](https://github.com/it-beard/itbeard-in-ton)
+
+[//]: # (---)
+
+[//]: # ()
+[//]: # (### 🪙 Stablecoin: DAI model)
+
+[//]: # ()
+[//]: # (**Description:** Introducing the DAI stablecoin model to the TON ecosystem, we're aiming to foster a robust and diverse decentralized finance &#40;DeFi&#41; landscape on Tact, combining stability with innovation)
+
+[//]: # ()
+[//]: # (**GitHub Link:** [Organization]&#40;&#41;)
+
+---
+
+### 🎮 SHEDEVERstudio
+
+**Description:** Welcome to SHEDEVER studio`s SHEDEX HACK-TON-BERFEST Repository! Here is a place where developers from all around the world come together to contribute to the first in the TON ecosystem GameFi DEX
+
+**GitHub Links:**
+
+ - [SHEDEX](https://github.com/SHEDEVERstudio/SHEDEX)
+ - [SHEDGEMS](https://github.com/SHEDEVERstudio/SHEDGEMS)
+ - [ChessZombies](https://github.com/SHEDEVERstudio/ChessZombies)
 
 ---
 
