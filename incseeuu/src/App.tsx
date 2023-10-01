@@ -1,10 +1,10 @@
 import "./App.css";
 import styled from "styled-components";
-import { Button, FlexBoxCol, FlexBoxRow } from "./components/styled/styled";
-import { CHAIN, TonConnectButton } from "@tonconnect/ui-react";
-import { useTonConnect } from "./hooks/useTonConnect";
+import {Button, FlexBoxCol, FlexBoxRow} from "./components/styled/styled";
+import {CHAIN, TonConnectButton} from "@tonconnect/ui-react";
+import {useTonConnect} from "./hooks/useTonConnect";
 import "@twa-dev/sdk"
-import { BusinessCard } from "./components/BusinessCard";
+import {BusinessCard} from "./components/BusinessCard";
 import logo from "./assets/hack-ton-berfest.jpg"
 
 const StyledApp = styled.div`
@@ -28,7 +28,7 @@ const Logo = styled.div`
   height: 48px;
 `;
 function App() {
-  // const {network} = useTonConnect()
+  const {network} = useTonConnect()
 
   return (
     <StyledApp>
@@ -36,9 +36,14 @@ function App() {
         <FlexBoxCol>
           <FlexBoxRow>        
             <img src={logo} height={48} />
-            {/*<TonConnectButton/>*/}
+            <TonConnectButton/>
             <Button>
-              N/A
+              {network
+                ? network === CHAIN.MAINNET
+                  ? "mainnet"
+                  : "testnet"
+                : "N/A"
+              }
             </Button>
           </FlexBoxRow>
           <BusinessCard />
