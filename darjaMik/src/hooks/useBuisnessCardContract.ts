@@ -70,6 +70,6 @@ export function useBuisnessCardContract() {
   return {
     likes,
     userInfo,
-    sendLike
+    sendLike,
   };
 }
