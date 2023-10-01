@@ -6,54 +6,55 @@ import { faYoutube, faGithub, faTelegram, faTwitter } from '@fortawesome/free-br
 import avatar from "../assets/avatar.png"
 
 import './BusinessCard.css';
+import {useBusinessCardContract} from "../hooks/useBusinessCardContract";
 
 export function BusinessCard() {
 
-  return (
-    <div className='container'>
-      
-      <div className='img-container'>
-        <img className='main-img' src={avatar} alt="me" />
-      </div>
-      
-      <div className='sub-container'>
+    const {likes, userInfo,sendLike} = useBusinessCardContract()
 
-        <div className="like-container">
-                <FontAwesomeIcon icon={faHeart} className="heart-icon"  />
-                &nbsp;<span>{0}</span>
+    return (
+        <div className='container'>
+
+            <div className='img-container'>
+                <img className='main-img' src={avatar} alt="me" />
             </div>
 
-        <div className='about'>
-          <h3>Name</h3>
-          <input value={"loading..."}/>
+            <div className='sub-container'>
+
+                <div className="like-container">
+                    <FontAwesomeIcon icon={faHeart} className="heart-icon" onClick={sendLike} />
+                    &nbsp;<span>{likes}</span>
+                </div>
+
+                <div className='about'>
+                    <h3>Name</h3>
+                    <input value={userInfo ? userInfo.name : "loading..."}/>
+                </div>
+                <div className='interest'>
+                    <h3>Profession</h3>
+                    <input value={userInfo ? userInfo.profession: "loading..."}/>
+                </div>
+                <div className='interest'>
+                    <h3>Bio</h3>
+                    <input value={userInfo ? userInfo.bio : "loading..."}/>
+                </div>
+                <button>Update</button>
+            </div>
+
+            <div className='footer'>
+                <a href="https://www.linkedin.com/" aria-label="YouTube" className="youtube">
+                    <FontAwesomeIcon icon={faYoutube} />
+                </a>
+                <a href="https://github.com/eanisei" aria-label="GitHub" className="github">
+                    <FontAwesomeIcon icon={faGithub} />
+                </a>
+                <a href="https://t.me/cyber_ea" aria-label="Telegram" className="telegram">
+                    <FontAwesomeIcon icon={faTelegram} />
+                </a>
+                <a href="https://twitter.com/eanisei" aria-label="Twitter" className="twitter">
+                    <FontAwesomeIcon icon={faTwitter} />
+                </a>
+            </div>
         </div>
-        <div className='interest'>
-          <h3>Profession</h3>
-          <input value={"loading..."}/>
-        </div>
-          <div className='interest'>
-              <h3>Bio</h3>
-              <input value={"loading..."}/>
-          </div>
-          <button>Update</button>
-      </div>
-      
-      <div className='footer'>
-      <a href="https://www.linkedin.com/" aria-label="YouTube" className="youtube">
-        <FontAwesomeIcon icon={faYoutube} />
-      </a>
-      <a href="https://github.com/eanisei" aria-label="GitHub" className="github">
-        <FontAwesomeIcon icon={faGithub} />
-      </a>
-      <a href="https://t.me/cyber_ea" aria-label="Telegram" className="telegram">
-        <FontAwesomeIcon icon={faTelegram} />
-      </a>
-      <a href="https://twitter.com/eanisei" aria-label="Twitter" className="twitter">
-        <FontAwesomeIcon icon={faTwitter} />
-      </a>
-    </div>
-    </div>
-  );
+    );
 }
-
-
