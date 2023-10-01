@@ -22,15 +22,19 @@ In this document, you'll find all the amazing teams participating in Hacktoberfe
 
 - #### Multi-token AMMs
   **Description:** DEX having better liquidity that can swap any supported token to any other in one request  
-  **GitHub Link:** to be provided
+  **GitHub Link:** 🔗 [MulDEX](https://github.com/ProgramCrafter/MulDEX)
 
-- #### Shadow Deployer
-  **Description:** NFT collection which allows holders (with some ZK mechanism) to deploy contracts from any of NFTs, without link to their own  
-  **GitHub Link:** to be provided
+- #### Ratelance
+  **Description:** (non-commercial) project that enables users to freelance on TON with secure escrow and flexible reward distribution but where platform can't steal the money as well  
+  **GitHub Link:** 🔗 [Ratelance](https://github.com/ProgramCrafter/ratelance)
 
 - #### RustyGate
   **Description:** Rust proxy application that could be installed locally and used for opening TON Sites of any kind (storage-based, ADNL-based, and some experimental ones)  
-  **GitHub Link:** to be provided
+  **GitHub Link:** 🔗 [RustyGate](https://github.com/ProgramCrafter/rusty-gate)
+
+- #### Shadow Deployer
+  **Description:** NFT collection which allows holders (with some ZK mechanism) to deploy contracts from any of NFTs, without link to their own  
+  **Status**: this is an idea, it doesn't have its own repository yet.
 
 ---
 ### 💎 Getgems community Tact
