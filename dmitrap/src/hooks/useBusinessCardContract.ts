@@ -2,7 +2,12 @@ import { useEffect, useState } from "react";
 import { useTonClient } from "./useTonClient";
 import { useTonConnect } from "./useTonConnect";
 import { useAsyncInitialize } from "./useAsyncInitialize";
-import { BusinessCard, Dislike, Like } from "../wrappers/tact_BusinessCard";
+import {
+  BusinessCard,
+  Dislike,
+  Like,
+  SetInformation,
+} from "../wrappers/tact_BusinessCard";
 import { Address, toNano } from "ton-core";
 
 export type UserInfo = {
@@ -96,10 +101,26 @@ export const useBusinessCardContract = () => {
     }
   }
 
+  async function setInformation(name: string, profesion: string, bio: string) {
+    await businessCardContract?.send(
+      sender,
+      {
+        value: toNano("0.01"),
+      },
+      {
+        $$type: "SetInformation",
+        name,
+        profesion,
+        bio,
+      }
+    );
+  }
+
   return {
     likes,
     userInfo,
     sendLike,
     sendDisike,
+    setInformation,
   };
 };
