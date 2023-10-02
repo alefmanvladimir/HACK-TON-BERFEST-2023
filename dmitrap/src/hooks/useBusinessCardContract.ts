@@ -2,7 +2,12 @@ import { useEffect, useState } from "react";
 import { useTonClient } from "./useTonClient";
 import { useTonConnect } from "./useTonConnect";
 import { useAsyncInitialize } from "./useAsyncInitialize";
-import { BusinessCard, Like } from "../wrappers/tact_BusinessCard";
+import {
+  BusinessCard,
+  Dislike,
+  Like,
+  SetInformation,
+} from "../wrappers/tact_BusinessCard";
 import { Address, toNano } from "ton-core";
 
 export type UserInfo = {
@@ -15,14 +20,14 @@ export const useBusinessCardContract = () => {
   const { client } = useTonClient();
   const { wallet, sender } = useTonConnect();
 
-  const [likes, setLikes] = useState<number | null>();
   const [userInfo, setUserInfo] = useState<UserInfo | null>();
+  const [likes, setLikes] = useState(0);
 
   const businessCardContract = useAsyncInitialize(async () => {
     if (!client || !wallet) return;
 
     const contract = BusinessCard.fromAddress(
-      Address.parse("EQCM3b63cele_wx64hUJecFvmYA-xHbU4O0lyj3AJxqcLVEe")
+      Address.parse("EQATX4XDdGlEcu18ZpRlq-VVMnGBQcXwVLnWcvKTRCgr0yLu")
     );
 
     const result = client.open(contract);
@@ -39,7 +44,6 @@ export const useBusinessCardContract = () => {
     if (!businessCardContract) {
       return;
     }
-    setLikes(null);
 
     const likes = await businessCardContract.getLikes();
 
@@ -65,6 +69,7 @@ export const useBusinessCardContract = () => {
     const message: Like = {
       $$type: "Like",
     };
+
     await businessCardContract?.send(
       sender,
       {
@@ -72,11 +77,50 @@ export const useBusinessCardContract = () => {
       },
       message
     );
+
+    if (message) {
+      setLikes(likes + 1);
+    }
+  }
+
+  async function sendDisike() {
+    const message: Dislike = {
+      $$type: "Dislike",
+    };
+
+    await businessCardContract?.send(
+      sender,
+      {
+        value: toNano("0.01"),
+      },
+      message
+    );
+
+    if (message) {
+      setLikes(likes - 1);
+    }
+  }
+
+  async function setInformation(name: string, profesion: string, bio: string) {
+    await businessCardContract?.send(
+      sender,
+      {
+        value: toNano("0.01"),
+      },
+      {
+        $$type: "SetInformation",
+        name,
+        profesion,
+        bio,
+      }
+    );
   }
 
   return {
     likes,
     userInfo,
     sendLike,
+    sendDisike,
+    setInformation,
   };
 };

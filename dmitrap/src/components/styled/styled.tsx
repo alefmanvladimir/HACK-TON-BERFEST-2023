@@ -15,6 +15,7 @@ export const FlexBoxRow = styled.div`
   flex-direction: row;
   gap: 10px;
   align-items: center;
+  justify-content: space-between;
 `;
 
 export const FlexBoxCol = styled.div`
@@ -33,6 +34,7 @@ export const Button = styled.button`
   font-weight: 700;
   cursor: pointer;
   pointer-events: ${(props) => (props.disabled ? "none" : "inherit")};
+  margin: 0;
 `;
 
 export const Ellipsis = styled.div`

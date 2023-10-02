@@ -8,7 +8,7 @@ const manifestUrl =
   "https://alefmanvladimir.github.io/my-twa/tonconnect-manifest.json";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <TonConnectUIProvider manifestUrl={manifestUrl}>
+  <TonConnectUIProvider manifestUrl={manifestUrl} language="ru">
     <App />
   </TonConnectUIProvider>
 );
