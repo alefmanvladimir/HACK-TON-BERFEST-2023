@@ -161,4 +161,14 @@ Hack-TON-Berfest participants can help the SHEDEVER studio team both in developi
 
 ---
 
+### 📖 TON docs
+
+**Description:**
+User-friendly documentation for newcomers to the TON blockchain.
+
+**GitHub Link:** 🔗 [ton-docs](https://github.com/ton-community/ton-docs)
+
+
+---
+
 _Note: As more teams join the project, they can be added in a similar format below._
