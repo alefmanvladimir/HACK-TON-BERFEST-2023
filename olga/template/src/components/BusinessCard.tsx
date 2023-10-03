@@ -1,4 +1,3 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
@@ -6,9 +5,10 @@ import { faYoutube, faGithub, faTelegram, faTwitter } from '@fortawesome/free-br
 import avatar from "../assets/avatar.png"
 
 import './BusinessCard.css';
+import { useBusinesscardContract } from '../hooks/useBusinessCardContract';
 
 export function BusinessCard() {
-
+const {likes,userInfo,sendLike}=useBusinesscardContract()
   return (
     <div className='container'>
       
@@ -19,21 +19,21 @@ export function BusinessCard() {
       <div className='sub-container'>
 
         <div className="like-container">
-                <FontAwesomeIcon icon={faHeart} className="heart-icon"  />
-                &nbsp;<span>{0}</span>
+                <FontAwesomeIcon icon={faHeart} className="heart-icon" onClick={sendLike} />
+                &nbsp;<span>{likes}</span>
             </div>
 
         <div className='about'>
           <h3>Name</h3>
-          <input value={"loading..."}/>
+          <input value={userInfo?.name??"not available"}/>
         </div>
         <div className='interest'>
           <h3>Profession</h3>
-          <input value={"loading..."}/>
+          <input value={userInfo?.profesion??"not available"}/>
         </div>
           <div className='interest'>
               <h3>Bio</h3>
-              <input value={"loading..."}/>
+              <input value={userInfo?.bio??"not available"}/>
           </div>
           <button>Update</button>
       </div>
