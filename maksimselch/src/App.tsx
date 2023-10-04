@@ -6,7 +6,6 @@ import {useTonConnect} from "./hooks/useTonConnect";
 import "@twa-dev/sdk"
 import {BusinessCard} from "./components/BusinessCard";
 import logo from "./assets/hack-ton-berfest.jpg"
-import {useBusinessCardContract} from "./hooks/useBusinessCardContract";
 
 const StyledApp = styled.div`
   background-color: #12172c;
@@ -28,7 +27,6 @@ const AppContainer = styled.div`
 const Logo = styled.div`
   height: 48px;
 `;
-
 function App() {
     const {network} = useTonConnect()
 
@@ -37,14 +35,13 @@ function App() {
             <AppContainer>
                 <FlexBoxCol>
                     <FlexBoxRow>
-                        <img src={logo} height={48}/>
+                        <img src={logo} height={48} />
                         <TonConnectButton/>
                         <Button>
-                            {network ? network === CHAIN.MAINNET ? 'mainnet' : 'tesnet' : 'N/A'
-                            }
+                            {network ? network===CHAIN.MAINNET? 'mainnet': 'testnet': 'N/A'}
                         </Button>
                     </FlexBoxRow>
-                    <BusinessCard/>
+                    <BusinessCard />
                 </FlexBoxCol>
             </AppContainer>
         </StyledApp>
