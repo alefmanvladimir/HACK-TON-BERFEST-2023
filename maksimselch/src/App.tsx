@@ -27,6 +27,7 @@ const AppContainer = styled.div`
 const Logo = styled.div`
   height: 48px;
 `;
+
 function App() {
     const {network} = useTonConnect()
 
@@ -35,13 +36,16 @@ function App() {
             <AppContainer>
                 <FlexBoxCol>
                     <FlexBoxRow>
-                        <img src={logo} height={48} />
+                        <img src={logo} height={48}/>
                         <TonConnectButton/>
                         <Button>
-                            {network ? network===CHAIN.MAINNET? 'mainnet': 'testnet': 'N/A'}
+                            {network ? network === CHAIN.MAINNET
+                                    ? "mainnet"
+                                    : "testnet"
+                                : "N/A"}
                         </Button>
                     </FlexBoxRow>
-                    <BusinessCard />
+                    <BusinessCard/>
                 </FlexBoxCol>
             </AppContainer>
         </StyledApp>
