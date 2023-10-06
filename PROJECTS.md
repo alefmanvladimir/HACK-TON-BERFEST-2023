@@ -147,13 +147,27 @@ Some ideas for HACK-TON-BERFEST 2023 from easy to hard:
 
 ### 🎮 SHEDEVERstudio
 
-**Description:** Welcome to SHEDEVER studio`s SHEDEX HACK-TON-BERFEST Repository! Here is a place where developers from all around the world come together to contribute to the first in the TON ecosystem GameFi DEX
+**Description:** GameDev studio SHEDEVER is an extraordinary project whose goal is to create a gaming ecosystem based on the TON blockchain.
+
+The studio plans to create a series of 5 games that combine the gameplay of classic board games with Strategy RPG elements, and also integrate a full-fledged DEX and NFT Marketplace into them.
+
+Hack-TON-Berfest participants can help the SHEDEVER studio team both in developing smart contracts and in creating logos and designs for future Gaming Ecosystem.
 
 **GitHub Links:**
 
  - [SHEDEX](https://github.com/SHEDEVERstudio/SHEDEX)
  - [SHEDGEMS](https://github.com/SHEDEVERstudio/SHEDGEMS)
  - [ChessZombies](https://github.com/SHEDEVERstudio/ChessZombies)
+
+---
+
+### 📖 TON docs
+
+**Description:**
+User-friendly documentation for newcomers to the TON blockchain.
+
+**GitHub Link:** 🔗 [ton-docs](https://github.com/ton-community/ton-docs)
+
 
 ---
 
