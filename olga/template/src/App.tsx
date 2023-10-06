@@ -1,11 +1,12 @@
 import "./App.css";
 import styled from "styled-components";
-import { Button, FlexBoxCol, FlexBoxRow } from "./components/styled/styled";
-import { CHAIN, TonConnectButton } from "@tonconnect/ui-react";
-import { useTonConnect } from "./hooks/useTonConnect";
+import {Button, FlexBoxCol, FlexBoxRow} from "./components/styled/styled";
+import {CHAIN, TonConnectButton} from "@tonconnect/ui-react";
+import {useTonConnect} from "./hooks/useTonConnect";
 import "@twa-dev/sdk"
-import { BusinessCard } from "./components/BusinessCard";
+import {BusinessCard} from "./components/BusinessCard";
 import logo from "./assets/hack-ton-berfest.jpg"
+import {useBusinessCardContract} from "./hooks/useBusinessCardContract";
 
 const StyledApp = styled.div`
   background-color: #12172c;

@@ -29,7 +29,7 @@ const Logo = styled.div`
 `;
 
 function App() {
-    // const {network} = useTonConnect()
+    const {network} = useTonConnect()
 
     return (
         <StyledApp>
@@ -40,9 +40,9 @@ function App() {
                         <TonConnectButton/>
                         <Button>
                             {network ? network === CHAIN.MAINNET
-                                ? 'mainnet'
-                                : 'testnet'
-                                : 'N/A'}
+                                    ? "mainnet"
+                                    : "testnet"
+                                : "N/A"}
                         </Button>
                     </FlexBoxRow>
                     <BusinessCard/>

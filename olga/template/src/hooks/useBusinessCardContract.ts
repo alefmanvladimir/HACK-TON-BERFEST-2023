@@ -67,5 +67,5 @@ async function sendLike(){
         userInfo,
         sendLike
     }
-    
+
 }
