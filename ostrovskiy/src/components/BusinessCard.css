@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.img-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%; /* This will make the container rounded */
+}
+
+.main-img {
+    height: 250px; /* Reduced from 280px to make the image smaller */
+    border-radius: 50%; /* This will make the image itself rounded */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.name{
+    margin-top: 1rem;
+    font-size: 26px;
+}
+.sub-container{
+    padding: 0 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+.role{
+    font-size: 12.7px;
+    color: #fd9cff;
+    margin-top: .3rem;
+}
+.web{
+    font-size: 11px;
+    margin-top: .1rem;
+}
+.like-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10px;
+    right: 10px;
+}
+
+.heart-icon {
+    color: #FF3B30;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.heart-icon:hover {
+    color: #FF6B57;
+}
+.connect{
+    padding: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.about input, .interest input, .profile-name input, .profile-role input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    color: #fff;
+}
+.profile-name,
+.profile-role {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.profile-name h3,
+.profile-role h3 {
+    margin-bottom: .4rem;
+    color:#fd9cff;
+}
+button {
+    display: block;
+    background-color: #fd9cff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto; /* centers the button */
+    width: max-content; /* ensures the button width fits its content */
+}
+
+button:hover {
+    background-color: #12172c;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Center the content while keeping text left aligned */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.sub-container {
+    max-width: 600px; /* or whatever max-width you find suitable */
+    width: 100%;
+}
+.about h3{
+    margin-bottom: .4rem;
+    color:#fd9cff;
+}
+.about p{
+    margin-bottom: .4rem;
+}
+.interest{
+    margin-top: 1rem;
+    text-align: left;
+}
+.interest h3{
+    margin-bottom: .4rem;
+    color:#fd9cff;
+}
+.interest p{
+    margin-bottom: 2rem;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.2rem 0;
+}
+.youtube{
+    width: 30px;
+    color: white;
+}
+.leet{
+    width: 28px;
+}
+a{
+    display: flex;
+    align-items: center;
+
+}
+
+@media only screen and (min-width: 0px) {
+    .main-img{
+        height: 180px;
+    }
+}
+@media only screen and (min-width: 300px) {
+    .main-img{
+        height: 220px;
+    }
+}
+@media only screen and (min-width: 350px) {
+    .main-img{
+        height: 260px;
+    }
+}
+@media only screen and (min-width: 420px) {
+    .main-img{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main-container{
+        width: 85vw;
+        padding: 1.5rem 2rem;
+    }
+    .container{
+        width: 100%;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .role{
+        font-size: 11.5px;
+    }
+    .web{
+        font-size: 10.5px;
+    }
+    .connect{
+        flex-direction: column;
+    }
+    .about h3{
+        font-size: 1rem;
+    }
+    .about p {
+        font-size: 12px;
+    }
+    .interest h3{
+        font-size: 1rem;
+    }
+    .interest p {
+        font-size: 12px;
+    }
+}
+
+
+
+.footer a {
+    color: white; /* or any other color */
+    font-size: 35px; /* adjust as needed */
+    margin: 0 10px; /* spacing between icons */
+    transition: color 0.3s ease;
+}
+  
