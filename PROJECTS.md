@@ -4,11 +4,11 @@ In this document, you'll find all the amazing teams participating in Hacktoberfe
 
 ---
 
-### 📁 TON Drive Team
+### 📁 Big Files Team
 
 **Description:** 🌐 TON Drive is an innovative Telegram Web App designed to bypass the 2GB file size limit of Telegram by leveraging TON Storage. This allows users to securely upload, store, and transfer larger files with ease.
 
-**GitHub Link:** 🔗 [TON Drive Repository](https://github.com/alefmanvladimir/TON-Drive)
+**GitHub Link:** 🔗 [Big Files Repository](https://github.com/alefmanvladimir/TON-Drive)
 
 ---
 
@@ -227,8 +227,126 @@ Some ideas for HACK-TON-BERFEST 2023 from easy to hard:
   
 **GitHub Links:** 
 
-- ####[contracts_repository](https://github.com/TDSub/contracts)
-- ####[frontend_repository](https://github.com/TDSub/frontend)
+- #### [contracts_repository](https://github.com/TDSub/contracts)
+- #### [frontend_repository](https://github.com/TDSub/frontend)
+
+---
+
+### 🛠️ Tonutils GO
+
+**Description:** Golang library for interacting with TON blockchain.
+
+This library is native golang implementation of ADNL and lite protocol. It works as connection pool and can be connected to multiple lite servers in the same time, balancing is done on lib side.
+
+**GitHub Link:** [repository](https://github.com/xssnick/tonutils-go)
+
+---
+
+### 🧑‍💻 Freelance Exchange
+
+**Description:** Next-gen Freelance Center in Telegram & on TON. Deals between freelancers & customers secured by smart-contracts. History of deals in blockchain. Work with people all over the world. Pay in crypto.
+
+**GitHub Link:** [repository](https://github.com/the-real-some-dao/freelance-exchange-tdb)
+
+---
+
+### 🗺️ Ton Validators Map
+
+**Description:** Building a map of TON validators
+
+**GitHub Link:** [repository](https://github.com/ton-developers/ton-validators-map)
+
+---
+
+### 🏫 TON dev study
+
+**Description:** Hello everybody! We are first online-school, offering different fields of knowledge nessesary for development on TON within our course:
+
+TON & Cryptography basics, TL-B schemes
+FIFT, FunC & TACT programming
+Building interactions with TON using Python & GO
+
+**GitHub Link:** [repository](https://github.com/TON-DEV-STUDY/ton-dev-study)
+
+---
+
+### 🚀 The open launch
+
+**Description:** A community-run NFT-based launchpad for TON projects is a platform managed by the community to initiate projects on TON using NFT tokens.
+
+**GitHub Links:**
+
+- #### [contracts_repository](https://github.com/theopenlaunch/SmartContracts)
+- #### [frontend_repository](https://github.com/theopenlaunch/FE)
+- #### [backend_repository](https://github.com/theopenlaunch/BE)
+
+---
+
+### 🐍 TonTools
+
+**Description:** TonTools is a high-level OOP library for Python, which can be used to interact with TON Blockchain.
+
+**GitHub Link:** [repository](https://github.com/yungwine/TonTools)
+
+If you have any questions join Python - [TON developers chat](https://t.me/pythonnton)
+
+---
+
+### 🐍 Pytoniq
+
+**Description:** Pytoniq is a Python SDK for the TON Blockchain. This library extends pytoniq-core with native LiteClient and ADNL.
+
+**GitHub Link:** [repository](https://github.com/yungwine/pytoniq)
+
+If you have any questions join Python - [TON developers chat](https://t.me/pythonnton)
+
+---
+
+### 🚀 Telegram-Mini-Apps-Dev
+
+**Description:** This template provides a minimal setup to get TWA working in Vite with React, TypeScript, HMR and some ESLint rules.
+
+**GitHub Link:** [repository](https://github.com/Telegram-Mini-Apps-Dev/vite-boilerplate)
+
+---
+
+### 🛠️ PHP mnemonic generation library
+
+**Description:** PHP mnemonic generation library for TON blockchain
+
+**GitHub Link:** [repository](https://github.com/olifanton/mnemonic)
+
+---
+
+### 🛠️ PHP tonlibjson transport
+
+**Description:** Asynchronous implementation of tonlibjson transport via PHP FFI.
+
+**GitHub Link:** [repository](https://github.com/olifanton/tonlibjson-transport)
+
+---
+
+### 🛠️ Olifanton Interop library
+
+**Description:** Interop library for the Olifanton project with basic primitives
+
+**GitHub Link:** [repository](https://github.com/olifanton/interop)
+
+---
+
+### 🛠️ Olifanton Interop library
+
+**Description:** Interop library for the Olifanton project with basic primitives
+
+**GitHub Link:** [repository](https://github.com/olifanton/interop)
+
+--- 
+
+### 🎲 METGO
+
+**Description:** Project on the TON blockchain to create METGO tokens, tokens and NFT collections in the game
+
+**GitHub Link:** [repository](https://github.com/Metorum/smart-contracts)
 
 ---
 
