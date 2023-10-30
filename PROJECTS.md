@@ -16,17 +16,27 @@ In this document, you'll find all the amazing teams participating in Hacktoberfe
 
 **Description:** [DAO](https://ton.vote/EQC0PkJStZMRZ5J7jSKd22X1pO9g1saLYNA3D6L1TZRs8AHz/about) focused on building projects useful for Web3.
 
+<details>
+
+<summary>Completed projects</summary>
+
 - #### ECVRF-based lottery
   **Description:** lottery contract based on verifiable random that can be influenced neither by players nor by validators.  
   **GitHub Link:** 🔗 [ton-lottery-ecvrf](https://github.com/ProgramCrafter/ton-lottery-ecvrf)
 
+</details>
+
+Other projects available:
+
 - #### Multi-token AMMs
   **Description:** DEX having better liquidity that can swap any supported token to any other in one request  
   **GitHub Link:** 🔗 [MulDEX](https://github.com/ProgramCrafter/MulDEX)
+  **Task:** create dApp
 
 - #### Ratelance
   **Description:** (non-commercial) project that enables users to freelance on TON with secure escrow and flexible reward distribution but where platform can't steal the money as well  
   **GitHub Link:** 🔗 [Ratelance](https://github.com/ProgramCrafter/ratelance)
+  **Task:** create website (approximately dApp)
 
 - #### RustyGate
   **Description:** Rust proxy application that could be installed locally and used for opening TON Sites of any kind (storage-based, ADNL-based, and some experimental ones)  
