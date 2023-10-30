@@ -20,7 +20,7 @@ export function useBusinessCardContract(){
     const businessCardContract = useAsyncInitialize(async()=>{
         if(!client || !wallet) return
         const contract = BusinessCard.fromAddress(
-            Address.parse("EQCM3b63cele_wx64hUJecFvmYA-xHbU4O0lyj3AJxqcLVEe")
+            Address.parse("EQDBeCvAb0xLVXChmBOX298jxOfmHcshOc9One24KmTDn-SJ")
         )
         const result = client.open(contract) as OpenedContract<BusinessCard>
 
