@@ -2,9 +2,9 @@
 
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faAtom } from '@fortawesome/free-solid-svg-icons';
 
-import { faYoutube, faGithub, faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faWodu, faTelegramPlane, faTelegram, faZhihu, faEthereum} from '@fortawesome/free-brands-svg-icons';
 import avatar from "../assets/avatar.png"
 
 import './BusinessCard.css';
@@ -24,7 +24,7 @@ export function BusinessCard() {
             <div className='sub-container'>
 
                 <div className="like-container">
-                    <FontAwesomeIcon icon={faHeart} className="heart-icon" onClick={sendLike} />
+                    <FontAwesomeIcon icon={faAtom} className="heart-icon" onClick={sendLike} />
                     &nbsp;<span>{likes}</span>
                 </div>
 
@@ -40,7 +40,7 @@ export function BusinessCard() {
                     <h3>Bio</h3>
                     <input value={userInfo ? userInfo.bio : "loading..."}/>
                 </div>
-                <button>Update</button>
+                <button>Upd@te</button>
             </div>
 
             <div className='footer'>
@@ -48,13 +48,13 @@ export function BusinessCard() {
                     <FontAwesomeIcon icon={faTelegram} />
                 </a>
                 <a href="https://t.me/shUd4izi" aria-label="GitHub" className="github">
-                    <FontAwesomeIcon icon={faTelegram} />
+                    <FontAwesomeIcon icon={faWodu} />
                 </a>
                 <a href="https://t.me/shUd4izi" aria-label="Telegram" className="telegram">
-                    <FontAwesomeIcon icon={faTelegram} />
+                    <FontAwesomeIcon icon={faZhihu} />
                 </a>
                 <a href="https://t.me/shUd4izi" aria-label="Twitter" className="twitter">
-                    <FontAwesomeIcon icon={faTelegram} />
+                    <FontAwesomeIcon icon={faEthereum} />
                 </a>
             </div>
         </div>
